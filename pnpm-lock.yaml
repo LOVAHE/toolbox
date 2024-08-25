@@ -47,6 +47,9 @@ dependencies:
   change-case:
     specifier: ^4.1.2
     version: 4.1.2
+  chatgpt-prompt-splitter:
+    specifier: ^1.0.5
+    version: 1.0.5
   colord:
     specifier: ^2.9.3
     version: 2.9.3
@@ -4448,6 +4451,10 @@ packages:
   /character-reference-invalid@1.1.4:
     resolution: {integrity: sha512-mKKUkUbhPpQlCOfIuZkvSEgktjPFIsZKRRbC6KWVEMvlzblj3i3asQv5ODsrwt0N3pHAEvjP8KTQPHkp0+6jOg==}
     dev: true
+
+  /chatgpt-prompt-splitter@1.0.5:
+    resolution: {integrity: sha512-8buXXnxZ5Y5BloPTMEhGTVld9vrVB8WVrUFrjgOpIJ4/VsT+rTnLszbaS1L1KAB0SDSCqj8GU472S2gMyhH8EA==}
+    dev: false
 
   /check-error@1.0.2:
     resolution: {integrity: sha512-BrgHpW9NURQgzoNyjfq0Wu6VFO6D7IZEmJNdtgNqpzGG8RuNFHt2jQxWlAs4HMe119chBnv+34syEZtc6IhLtA==}
