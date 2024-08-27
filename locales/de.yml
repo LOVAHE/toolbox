@@ -101,6 +101,10 @@ tools:
     description: >-
       Überwache die Dauer einer Sache. Im Grunde ein Chronometer mit einfachen
       Chronometerfunktionen.
+    button:
+      start: Start
+      stop: Stopp
+      reset: Zurücksetzen
   token-generator:
     title: Token-Generator
     description: >-
@@ -429,6 +433,13 @@ tools:
     description: >-
       Generiere einen Base64-Basic-Auth-Header aus einem Benutzernamen und einem
       Passwort.
+    button:
+      copy: Header kopieren
+    copied: Header in die Zwischenablage kopiert
+    password: Passwort
+    username: Benutzername
+    yourpassword: Dein Passwort...
+    yourusername: Dein Benutzername...
   text-to-unicode:
     title: Text zu Unicode
     description: Parse und konvertiere Text in Unicode und umgekehrt.
@@ -453,3 +464,28 @@ tools:
   text-to-binary:
     title: Text zu ASCII-Binär
     description: Konvertiere Text in seine ASCII-Binärrepräsentation und umgekehrt.
+  safelink-decoder:
+    title: Outlook Safelink-Decoder
+    description: Outlook Safelinks decodieren
+  ascii-text-drawer:
+    title: ASCII-Art-Text-Generator
+    description: ASCII-Art-Text mit vielen Schriftarten und Stilen erstellen.
+  json-to-xml:
+    title: JSON zu XML
+    description: JSON in XML konvertieren
+  xml-to-json:
+    title: XML zu JSON
+    description: XML in JSON konvertieren
+  email-normalizer:
+    title: E-Mail-Normalisierung
+    description: >-
+      Vereinheitlichen von E-Mail-Adressen auf ein Standardformat für einen
+      einfacheren Vergleich. Nützlich für Deduplizierung und Datenbereinigung.
+  markdown-to-html:
+    title: Markdown zu HTML
+    description: Markdown in HTML konvertieren und (als PDF) ausdrucken
+    markdown: 'Dein zu konvertierender Markdown-Inhalt:'
+    markdownInput: Dein Markdown-Inhalt...
+    html: 'HTML-Ausgabe:'
+    button:
+      print: Als PDF drucken
