@@ -17,8 +17,8 @@ import CollapsibleToolMenu from '@/components/CollapsibleToolMenu.vue';
 
 const themeVars = useThemeVars();
 const styleStore = useStyleStore();
-const version = config.app.version;
-const commitSha = config.app.lastCommitSha.slice(0, 7);
+# const version = config.app.version;
+# const commitSha = config.app.lastCommitSha.slice(0, 7);
 
 const { tracker } = useTracker();
 const { t } = useI18n();
@@ -64,7 +64,7 @@ const tools = computed<ToolCategory[]>(() => [
             Web Tools
           </div>
           <div>
-            Powered by ICECHUI  
+            Powered by ICECHUI
           </div>
         </div>
       </div>
